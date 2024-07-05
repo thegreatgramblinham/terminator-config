@@ -1,0 +1,29 @@
+[global_config]
+  inactive_color_offset = 0.7613636363636364
+[keybindings]
+[profiles]
+  [[default]]
+    icon_bell = False
+    background_color = "#171611"
+    background_darkness = 0.91
+    background_type = image
+    background_image = /home/tggh/Pictures/pink-geometeric-background.jpg
+    font = JetBrains Mono NL Semi-Bold 14
+    foreground_color = "#d9d5c6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 3000
+    scrollback_infinite = True
+    disable_mousewheel_zoom = True
+    palette = "#000000:#744040:#51754e:#71774d:#535b86:#7e546d:#c4a4b9:#faebd7:#404040:#aa5959:#8fba84:#c1c27b:#9097d1:#dfb3d5:#ba7ea4:#ffffff"
+    use_system_font = False
+  [[default-original]]
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
